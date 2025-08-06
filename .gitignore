@@ -1,0 +1,16 @@
+# === Spring Boot (backend) ===
+/backend/target/
+/backend/.classpath
+/backend/.project
+/backend/.settings/
+
+# === Angular (frontend) ===
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.angular/
+
+# === OS & IDE Files ===
+.DS_Store
+*.log
+*.iml
+*.swp
