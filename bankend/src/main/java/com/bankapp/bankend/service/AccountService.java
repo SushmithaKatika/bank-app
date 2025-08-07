@@ -1,5 +1,7 @@
 package com.bankapp.bankend.service;
 
+import java.util.List;
+
 import com.bankapp.bankend.dto.AccountDto;
 
 public interface AccountService {
@@ -11,4 +13,8 @@ public interface AccountService {
 	AccountDto deposit(Long id,double amount);
 	
 	AccountDto withdraw(Long id, double amount);
+	
+	List<AccountDto> getAllAccounts();
+	
+	void deleteAccount(Long id);
 }
