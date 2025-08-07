@@ -20,6 +20,9 @@ public class Account {
 	
 	private double balance;
 
+	public Account() {
+	}
+	
 	public Account(Long id, String accountHolderName, double balance) {
 		super();
 		this.id = id;
